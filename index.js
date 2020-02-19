@@ -12,4 +12,4 @@ function logo(number) {
     }
 }
 
-logo(10000)   //<-- put your number
+logo(5)   //<-- put your number
