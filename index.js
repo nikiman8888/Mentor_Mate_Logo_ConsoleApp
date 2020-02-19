@@ -1,6 +1,6 @@
 const printingLogo = require('./utils/printingLogo');
 
-//logo function invoke the printing logo functions
+//logo function call the printing logo functions
 function logo(number) {
 
     if (number > 2 && number < 10000 && number % 2 !== 0) {
