@@ -13,4 +13,4 @@ function logo(number) {
     }
 }
 
-logo(5)   //<-- put your number
+logo(10)   //<-- put your number and run(F5) VS code debug console
