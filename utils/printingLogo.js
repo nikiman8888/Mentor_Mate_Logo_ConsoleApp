@@ -1,4 +1,4 @@
-const drawer = require('./drawer');
+const drawer = require('./drawer');   //// returning a concatenated string ,using(params)
 const line = '-';
 const star = '*';
 let letterM = '';
