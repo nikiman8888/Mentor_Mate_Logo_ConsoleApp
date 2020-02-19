@@ -3,7 +3,7 @@ const line = '-';
 const star = '*';
 let letterM = '';
 
-
+// printing the upper part of logo
 function printingLogoUpPart(number) {
     const halfRowsLogo = (number + 1) / 2;
 
@@ -14,11 +14,12 @@ function printingLogoUpPart(number) {
             drawer(number - row * 2, line) +
             drawer(number + row * 2, star) +
             drawer(number - row, line);      
-             
+
         console.log(letterM + letterM);
     }
 }
 
+//printing the lower part of logo
 function printingLogoDownPart(number) {
 
     const halfRowsLogo = (number + 1) / 2;
